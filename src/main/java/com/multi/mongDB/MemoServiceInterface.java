@@ -1,0 +1,20 @@
+package com.multi.mongDB;
+
+import java.util.List;
+
+public interface MemoServiceInterface {
+	// 데이터 추가 기능
+	public void insert(MemoVO vo);
+	
+	//데이터 삭제 기능
+	public void delete(String _id);
+	
+	//데이터 갱신 기능
+	public void update(MemoVO vo);
+	
+	//데이터 검색 기능 (하나의 document)
+	public MemoVO one(String _id);
+	
+	//데이터 검색 기능 (여러개의 document)
+	public List<MemoVO> list();
+}

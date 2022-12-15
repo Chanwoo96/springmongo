@@ -119,11 +119,13 @@
 		</dependency>
 		
 		<!-- MongoDB -->
+		<!-- JDBC드라이버 -->
 		<dependency>
 			<groupId>org.mongodb</groupId>
 			<artifactId>mongo-java-driver</artifactId>
 			<version>3.2.2</version>
 		</dependency>
+		<!-- mongoTemplate -->
 		<dependency>
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-mongodb</artifactId>
